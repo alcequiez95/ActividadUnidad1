@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Tabla de Multiplicar";
+}
+
+<h1>Tabla de Multiplicar del @ViewBag.Numero</h1>
+
+<ul>
+    @foreach (var item in ViewBag.Tabla)
+    {
+        <li>@item</li>
+    }
+</ul>
