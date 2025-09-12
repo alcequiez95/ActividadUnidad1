@@ -26,6 +26,24 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ejercicios
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="PrimerEjercicio" asp-action="Inicio">Ejercicio 1: Presentación</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Calculadora" asp-action="Sumar" asp-route-num1="5" asp-route-num2="5">Ejercicio 2: Calculadora</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Palindroma" asp-action="Palabra" asp-route-palabra="oso">Ejercicio 3: Palíndroma</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Frase" asp-action="ContarPalabras" asp-route-frase="Hola mundo">Ejercicio 4: Contar Palabras</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Numero" asp-action="ParImpar" asp-route-numero="2">Ejercicio 5: Par o Impar</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Tabla" asp-action="Multiplicar" asp-route-numero="5">Ejercicio 6: Tabla de Multiplicar</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Temperatura" asp-action="Convertir" asp-route-celsius="0">Ejercicio 7: Convertir Temperatura</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Capicu" asp-action="Verificar" asp-route-numero="121">Ejercicio 8: Capicúa</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Anio" asp-action="Bisiesto" asp-route-anio="2024">Ejercicio 9: Año Bisiesto</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Correo" asp-action="Dominio" asp-route-email="test@example.com">Ejercicio 10: Dominio de Correo</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Clave" asp-action="Segura" asp-route-clave="Password123">Ejercicio 11: Clave Segura</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
